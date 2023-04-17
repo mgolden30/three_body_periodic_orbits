@@ -5,7 +5,12 @@ This code should allow one to find periodic orbits. To find these yourself, run 
    This will perform random numerical integration to hunt for near-misses (George Carlin thinks they should be called near-hits)
    Results will be stored in the "candidates" directory
 
-2. convergePO_from_candidates.m will do Newton on the single-shooting objective, and then Newton on the spectral representation. I have found this helps convergence quite a bit.
+2. convergePO_from_candidates.m 
+   this will do Newton on the single-shooting objective, and then Newton on the spectral representation. I have found this helps convergence quite a bit.
    Converged state will be stored in "solutions" with plots of trajectories in "solutions/figures"
+
+
+3. The unique solutions can be plotted by specifying them in the *unique_solutions* functions. 
+   Both animations and diagnostic figures can be produced.
 
 
